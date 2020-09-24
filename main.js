@@ -2,7 +2,7 @@ const solutions=['Water + Acetone','Water + Ethanol','Water + Propanal'];
 const temp=[56,78.4,97];
 var i=Math.floor(Math.random() * 3)
 //console.log(solutions);
-    var canvas= new fabric.Canvas('canvas');
+    var canvas= new fabric.StaticCanvas('canvas');
     canvas.setHeight(600);
     canvas.setWidth(800);
     function pic(image,src,x,y,scale){
